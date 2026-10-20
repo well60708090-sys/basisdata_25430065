@@ -69,7 +69,8 @@ KI-01: Laporan omzet dan jumlah total pesanan harian serta bulanan.   KI-02: Lap
 | 21 | `no_resi` | Nomor resi pelacakan kurir | JNT-98237412 | Teks, Boleh Kosong (NULL) sebelum dikirim | Petugas Gudang |
 | 22 | `biaya_ongkir` | Tarif ongkos kirim pesanan | 15000.00 | Bilangan desimal >= 0 | Petugas Gudang |
 
-## 9. Kebutuhan non-fungsional dataVolume Transaksi: Berdasarkan parameter $P = 3$, perkiraan volume transaksi harian adalah $40 + 5 \times 3 = 55$ transaksi per hari.   Retensi Data: Seluruh data transaksi historis disimpan sekurang-kurangnya selama 5 tahun.   Privasi Data: Data pribadi pelanggan (seperti email, nomor telepon, dan alamat lengkap) dikategorikan sebagai data privat sesuai dengan Undang-Undang Pelindungan Data Pribadi (UU PDP) dan hanya dapat diakses oleh pihak yang berwenang. 
+## 9. Kebutuhan non-fungsional data
+Volume Transaksi: Berdasarkan parameter $P = 3$, perkiraan volume transaksi harian adalah $40 + 5 times 3 = 55$ transaksi per hari.   Retensi Data: Seluruh data transaksi historis disimpan sekurang-kurangnya selama 5 tahun.   Privasi Data: Data pribadi pelanggan (seperti email, nomor telepon, dan alamat lengkap) dikategorikan sebagai data privat sesuai dengan Undang-Undang Pelindungan Data Pribadi (UU PDP) dan hanya dapat diakses oleh pihak yang berwenang. 
 
 ## 10. Isu kualitas data yang diantisipasi
 Potensi kesalahan penulisan alamat email atau nomor telepon yang tidak aktif dari pelanggan saat pendaftaran.
